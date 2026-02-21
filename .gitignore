@@ -1,0 +1,8 @@
+# Ignore Python virtual environment
+.venv/
+
+# Ignore TTS voices
+tts/Voices/
+
+# Ignore macOS metadata
+*.DS_Store
