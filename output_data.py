@@ -1,0 +1,26 @@
+# Python allows the dynamic typing
+'''
+#   ██▓███ ▓██   ██▓▄▄▄█████▓ ██░ ██  ▒█████   ███▄    █ 
+#  ▓██░  ██▒▒██  ██▒▓  ██▒ ▓▒▓██░ ██▒▒██▒  ██▒ ██ ▀█   █ 
+#  ▓██░ ██▓▒ ▒██ ██░▒ ▓██░ ▒░▒██▀▀██░▒██░  ██▒▓██  ▀█ ██▒
+#  ▒██▄█▓▒ ▒ ░ ▐██▓░░ ▓██▓ ░ ░▓█ ░██ ▒██   ██░▓██▒  ▐▌██▒
+#  ▒██▒ ░  ░ ░ ██▒▓░  ▒██▒ ░ ░▓█▒░██▓░ ████▓▒░▒██░   ▓██░
+#  ▒▓▒░ ░  ░  ██▒▒▒   ▒ ░░    ▒ ░░▒░▒░ ▒░▒░▒░ ░ ▒░   ▒ ▒ 
+#  ░▒ ░     ▓██ ░▒░     ░     ▒ ░▒░ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░
+#  ░░       ▒ ▒ ░░    ░       ░  ░░ ░░ ░ ░ ▒     ░   ░ ░ 
+#           ░ ░               ░  ░  ░    ░ ░           ░ 
+#           ░ ░                                          
+'''
+# Output data
+
+name = "Anonymous"
+age = 22
+
+# First way to display an output data
+#print("Hi",name,"you are",age,"years old")
+
+# Second way to display an output data
+#print("Hi {} you are {} years old".format(name,age))
+
+# Third way to display an output data (most used in v3.6)
+print(f"Hi {name} you are {age} years old")

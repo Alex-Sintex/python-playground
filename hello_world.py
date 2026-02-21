@@ -1,0 +1,27 @@
+# Python allows the dynamic typing
+'''
+#   ██▓███ ▓██   ██▓▄▄▄█████▓ ██░ ██  ▒█████   ███▄    █ 
+#  ▓██░  ██▒▒██  ██▒▓  ██▒ ▓▒▓██░ ██▒▒██▒  ██▒ ██ ▀█   █ 
+#  ▓██░ ██▓▒ ▒██ ██░▒ ▓██░ ▒░▒██▀▀██░▒██░  ██▒▓██  ▀█ ██▒
+#  ▒██▄█▓▒ ▒ ░ ▐██▓░░ ▓██▓ ░ ░▓█ ░██ ▒██   ██░▓██▒  ▐▌██▒
+#  ▒██▒ ░  ░ ░ ██▒▓░  ▒██▒ ░ ░▓█▒░██▓░ ████▓▒░▒██░   ▓██░
+#  ▒▓▒░ ░  ░  ██▒▒▒   ▒ ░░    ▒ ░░▒░▒░ ▒░▒░▒░ ░ ▒░   ▒ ▒ 
+#  ░▒ ░     ▓██ ░▒░     ░     ▒ ░▒░ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░
+#  ░░       ▒ ▒ ░░    ░       ░  ░░ ░░ ░ ░ ▒     ░   ░ ░ 
+#           ░ ░               ░  ░  ░    ░ ░           ░ 
+#           ░ ░                                          
+'''
+# Type of variables
+num1 = 10
+num2 = 1.5
+chain1 = "Anonymous"
+chain2 = "I am 'studying'"
+value = True
+sum = num1 + num2 * 10 / 6
+result = (num1+num2) * 10 / 6
+
+# Display the output and convert number into a string before display it
+#print("The value is: " + str(number1))
+#print(type(value))
+#print(sum)
+print("The result is: ", result)

@@ -1,0 +1,40 @@
+# Python allows the dynamic typing
+'''
+#   ██▓███ ▓██   ██▓▄▄▄█████▓ ██░ ██  ▒█████   ███▄    █ 
+#  ▓██░  ██▒▒██  ██▒▓  ██▒ ▓▒▓██░ ██▒▒██▒  ██▒ ██ ▀█   █ 
+#  ▓██░ ██▓▒ ▒██ ██░▒ ▓██░ ▒░▒██▀▀██░▒██░  ██▒▓██  ▀█ ██▒
+#  ▒██▄█▓▒ ▒ ░ ▐██▓░░ ▓██▓ ░ ░▓█ ░██ ▒██   ██░▓██▒  ▐▌██▒
+#  ▒██▒ ░  ░ ░ ██▒▓░  ▒██▒ ░ ░▓█▒░██▓░ ████▓▒░▒██░   ▓██░
+#  ▒▓▒░ ░  ░  ██▒▒▒   ▒ ░░    ▒ ░░▒░▒░ ▒░▒░▒░ ░ ▒░   ▒ ▒ 
+#  ░▒ ░     ▓██ ░▒░     ░     ▒ ░▒░ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░
+#  ░░       ▒ ▒ ░░    ░       ░  ░░ ░░ ░ ░ ▒     ░   ░ ░ 
+#           ░ ░               ░  ░  ░    ░ ░           ░ 
+#           ░ ░                                          
+'''
+# Conjuntos (se ordenan de forma desordenada)
+# There can be no duplicate sets
+
+# Empty set
+conjunto = set()
+
+# There cannot be a list[] into the set
+conjunto = {1,2,3,"Hi",4.56}
+
+# Add a new value into the set
+#conjunto.add(5)
+#conjunto.add("Goodbye")
+#conjunto.add('a')
+
+# Delete a value in the set
+#conjunto.discard(3)
+#conjunto.clear()
+
+# Search a specific value in the set
+#print(11 in conjunto)
+#print(11 not in conjunto)
+
+#a = set() Create a set with empty values, it is not neccesary if set already have values
+a = {1,2,3}
+b = {3,4,5}
+
+print(len(a))

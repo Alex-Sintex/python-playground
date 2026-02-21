@@ -1,0 +1,36 @@
+# Python allows the dynamic typing
+'''
+#   ██▓███ ▓██   ██▓▄▄▄█████▓ ██░ ██  ▒█████   ███▄    █ 
+#  ▓██░  ██▒▒██  ██▒▓  ██▒ ▓▒▓██░ ██▒▒██▒  ██▒ ██ ▀█   █ 
+#  ▓██░ ██▓▒ ▒██ ██░▒ ▓██░ ▒░▒██▀▀██░▒██░  ██▒▓██  ▀█ ██▒
+#  ▒██▄█▓▒ ▒ ░ ▐██▓░░ ▓██▓ ░ ░▓█ ░██ ▒██   ██░▓██▒  ▐▌██▒
+#  ▒██▒ ░  ░ ░ ██▒▓░  ▒██▒ ░ ░▓█▒░██▓░ ████▓▒░▒██░   ▓██░
+#  ▒▓▒░ ░  ░  ██▒▒▒   ▒ ░░    ▒ ░░▒░▒░ ▒░▒░▒░ ░ ▒░   ▒ ▒ 
+#  ░▒ ░     ▓██ ░▒░     ░     ▒ ░▒░ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░
+#  ░░       ▒ ▒ ░░    ░       ░  ░░ ░░ ░ ░ ▒     ░   ░ ░ 
+#           ░ ░               ░  ░  ░    ░ ░           ░ 
+#           ░ ░                                          
+'''
+# Tuplas
+
+# Cannot add, edit or delete element already have, only search
+''' [ They're more fast to execute | the Tuples ] '''
+tupla = (4, "Hi", 6.78, [1,2,3], 4)
+
+# Display only an index print(tupla[index to show])
+#print(tupla[1])
+
+# Convert a tupla into a list
+lista = list(tupla)
+#print(lista)
+# Convert a list into a tupla
+lista = [4, "Hi", 6.78, [1,2,3], 4]
+print(lista)
+#tupla = tuple(lista)
+
+# Check if an element exists in tupla
+#print(4 in tupla)
+# Show index which is the element in tupla
+#print(tupla.index(4))
+# Show number of elements in tupla
+#print(tupla.count(4))
