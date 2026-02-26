@@ -10,7 +10,7 @@ FORMAT = pyaudio.paInt16
 CHANNELS = 1
 RATE = 44100  # or 48000
 BRIGHTNESSCTL_PATH = "/usr/local/bin/mac-brightnessctl"
-BASS_THRESHOLD = 2000  # Adjust for sensitivity
+BASS_THRESHOLD = 1000  # Adjust for sensitivity
 COOLDOWN = 0.3  # seconds between flashes
 
 # Bandpass filter (bass range: ~20-250 Hz)

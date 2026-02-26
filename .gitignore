@@ -6,3 +6,4 @@ tts/Voices/
 
 # Ignore macOS metadata
 *.DS_Store
+keyboard/audio/.python-version
